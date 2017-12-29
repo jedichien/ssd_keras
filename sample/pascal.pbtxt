@@ -1,0 +1,100 @@
+item {
+  id: 1
+  name: 'Aeroplane'
+}
+
+item {
+  id: 2
+  name: 'Bicycle'
+}
+
+item {
+  id: 3
+  name: 'Bird'
+}
+
+item {
+  id: 4
+  name: 'Boat'
+}
+
+item {
+  id: 5
+  name: 'Bottle'
+}
+
+item {
+  id: 6
+  name: 'Bus'
+}
+
+item {
+  id: 7
+  name: 'Car'
+}
+
+item {
+  id: 8
+  name: 'Cat'
+}
+
+item {
+  id: 9
+  name: 'Chair'
+}
+
+item {
+  id: 10
+  name: 'Cow'
+}
+
+item {
+  id: 11
+  name: 'Diningtable'
+}
+
+item {
+  id: 12
+  name: 'Dog'
+}
+
+item {
+  id: 13
+  name: 'Horse'
+}
+
+item {
+  id: 14
+  name: 'Motorbike'
+}
+
+item {
+  id: 15
+  name: 'Person'
+}
+
+item {
+  id: 16
+  name: 'Pottedplant'
+}
+
+item {
+  id: 17
+  name: 'Sheep'
+}
+
+item {
+  id: 18
+  name: 'Sofa'
+}
+
+item {
+  id: 19
+  name: 'Train'
+}
+
+item {
+  id: 20
+  name: 'Tvmonitor'
+}
+
