@@ -27,6 +27,7 @@ download link is [here](https://drive.google.com/open?id=1wNTwvdSCmVbt_vE-w2Q0xi
 2. In [T2_Modulized_GenerateData.ipynb](T2_Modulized_GenerateData.ipynb) shows you I modulized generate_data then placed in [utils/generate_data.py](utils/generate_data.py) and [demo part](utils/demo.py).
 3. In [T3_AssignBBoxes.ipynb](T3_AssignBBoxes.ipynb) describes the way to **assign bboxes** which is core procedure in **generate_data.py**.
 4. In [T4_PriorBox.ipynb](T4_PriorBox.ipynb) describe the layer in SSD model which is core layer for Object-detection.
+5. In [T5_SSDModel.ipynb](T5_SSDModel.ipynb) I restructure original model which I think more easily to understand.
 
 [rykov8]: <https://github.com/rykov8/ssd_keras>
 [wikke]: <https://github.com/wikke/SSD_Keras>
