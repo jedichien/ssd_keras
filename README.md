@@ -2,6 +2,7 @@
 Thanks [rykov8] for basic structure and [wikke] for updating model.
 I split from `generate_data` to `model` into several part which notebook name starts with TX_ .
 My goal is sharing my knowlege in simple way to everyone. Have fun !
+![Imgur](https://i.imgur.com/2BufYZO.png)
 
 ## Requirement
 - tensorflow >= 1.4.0
