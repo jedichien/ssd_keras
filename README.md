@@ -15,8 +15,8 @@ My goal is sharing my knowlege in simple way to everyone. Have fun !
 you must to create dict classes, check [sample](sample/pascal.pbtxt).
 
 ## Dataset
-VOC2007 : ```wget http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtrainval_06-Nov-2007.tar```
-VOC2012 : ```wget http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar```
+* VOC2007 : ```wget http://host.robots.ox.ac.uk/pascal/VOC/voc2007/VOCtrainval_06-Nov-2007.tar```
+* VOC2012 : ```wget http://host.robots.ox.ac.uk/pascal/VOC/voc2012/VOCtrainval_11-May-2012.tar```
 
 ## Description
 1. In [T1_GenerateData.ipynb](T1_GenerateData.ipynb) shows you each of steps image process effect and flow of generating dataset.
