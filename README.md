@@ -28,7 +28,9 @@ download link is [here](https://drive.google.com/open?id=1wNTwvdSCmVbt_vE-w2Q0xi
 3. In [T3_AssignBBoxes.ipynb](T3_AssignBBoxes.ipynb) describes the way to **assign bboxes** which is core procedure in **generate_data.py**.
 4. In [T4_PriorBox.ipynb](T4_PriorBox.ipynb) describe the layer in SSD model which is core layer for Object-detection.
 5. In [T5_SSDModel.ipynb](T5_SSDModel.ipynb) I restructure original model which I think more easily to understand.
+6. In [T6_CreatePriorBoxes](T6_CreatePriorBoxes.ipynb) I find this on website and make a explanation.
+7. In [T7_LossFunction](T7_LossFunction.ipynb) Note here, I still figure it out.
+8. In [T8_DecodePredictValue](T8_DecodePredictValue.ipynb) As the filename, script is quite intuition, very easy to understand.
 
 [rykov8]: <https://github.com/rykov8/ssd_keras>
 [wikke]: <https://github.com/wikke/SSD_Keras>
-
