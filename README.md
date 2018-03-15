@@ -22,6 +22,17 @@ you must to create dict classes, check [sample](sample/pascal.pbtxt).
 ## Pretrained Model Weights
 download link is [here](https://drive.google.com/open?id=1wNTwvdSCmVbt_vE-w2Q0xieTs6yUsmrR)
 
+## Chief Concept
+SSD as its name aims to detect bounding-box in single-shot, nontheless how we get these bounding-box and its category, here is solution.
+1. Bounding-Box Detection: We use CNN as our model for training, but question is how we train it?
+    * Q1: How do we train it with CNN model?
+    * A1: Everytime we want to train a model we need to supply ground-truth data, which in these model we apply PriorBox to encoding ground-truth bbox to feature map data, and then its get several datas pertaining to feature scaling ratio(aspect ratio) and image scaling ratio(resolution ratio). Furthermore, we can use aforementioned data as training data to train our model.(see notebook: [T3_AssignBBoxes.ipynb](T3_AssignBBoxes.ipynb), [T4_PriorBox.ipynb](T4_PriorBox.ipynb), and [T7_LossFunction](T7_LossFunction.ipynb)) if you want to know how the formation of priorbox which is used in [T3_AssignBBoxes.ipynb](T3_AssignBBoxes.ipynb), you can check [T6_CreatePriorBoxes](T6_CreatePriorBoxes.ipynb).
+2. Classification:
+    * Q1: 
+    * A1: 
+3. How to comebine above into one.
+
+
 ## Description
 1. In [T1_GenerateData.ipynb](T1_GenerateData.ipynb) shows you each of steps image process effect and flow of generating dataset.
 2. In [T2_Modulized_GenerateData.ipynb](T2_Modulized_GenerateData.ipynb) shows you I modulized generate_data then placed in [utils/generate_data.py](utils/generate_data.py) and [demo part](utils/demo.py).
